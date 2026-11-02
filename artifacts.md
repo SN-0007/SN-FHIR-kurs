@@ -13,6 +13,7 @@ These define constraints on FHIR resources for systems conforming to this implem
 
 | | |
 | :--- | :--- |
+| [Education Encounter](StructureDefinition-EducationEncounter.md) | Profil för en vårdkontakt i FHIR-utbildningen. |
 | [Education Patient](StructureDefinition-EducationPatient.md) | Patientprofil för FHIR-utbildningen. Profilen byggs ut steg för steg under kursen. |
 
 ### Example: Example Instances 
@@ -21,5 +22,6 @@ These are example instances that show what data produced and consumed by systems
 
 | | |
 | :--- | :--- |
+| [Besök på vårdcentral](Encounter-encounter-tolvan-1.md) | Tolvan besöker vårdcentralen. |
 | [Tolvan Tolvansson](Patient-patient-tolvan.md) | Exempelpatient (Skatteverkets klassiska testperson). |
 

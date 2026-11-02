@@ -10,7 +10,7 @@
   "name" : "FhirEducationKursIG",
   "title" : "Samira utbildning",
   "status" : "draft",
-  "date" : "2026-11-02T10:49:50+00:00",
+  "date" : "2026-11-02T12:27:16+00:00",
   "publisher" : "FHIR-utbildning",
   "description" : "En liten Implementation Guide som byggs upp steg för steg under FHIR-utbildningen.",
   "jurisdiction" : [{
@@ -357,6 +357,30 @@
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     }],
     "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Encounter"
+      }],
+      "reference" : {
+        "reference" : "Encounter/encounter-tolvan-1"
+      },
+      "name" : "Besök på vårdcentral",
+      "description" : "Tolvan besöker vårdcentralen.",
+      "exampleCanonical" : "http://example.org/fhir/education/kursig/StructureDefinition/EducationEncounter"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/EducationEncounter"
+      },
+      "name" : "Education Encounter",
+      "description" : "Profil för en vårdkontakt i FHIR-utbildningen.",
+      "exampleBoolean" : false
+    },
+    {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
