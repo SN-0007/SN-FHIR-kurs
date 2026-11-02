@@ -1,6 +1,6 @@
 Profile: EducationEncounter
 Parent: Encounter
 Id: Educationencounter
-Titel: *Min test profil*
-* Type 1..1 MS
-* Subject only reference(EducationPatient)
+Title: *Min test profil*
+* type 1..1 MS
+* subject only Reference(EducationPatient)
